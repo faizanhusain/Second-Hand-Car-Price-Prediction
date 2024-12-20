@@ -56,3 +56,5 @@ Determining whether a used car is priced fairly when browsing online listings ca
 ![download](https://github.com/user-attachments/assets/7de155a1-2179-43c7-8a06-d55f0d00eb7c)
  - Optimized Gradient Boosting Regressor and Optimized XGB Regressor exhibit the highest R² scores, suggesting they are the most accurate models in this comparison.
  - Deep Neural Network and XG Boost also have strong performances, ranking just below the top models.
+# Conclusion: 
+The machine learning model successfully predicts second-hand car prices with high accuracy. It provides actionable insights for both buyers and sellers in the used car market. Future work could involve integrating real-time data and testing the model on unseen markets for scalability.
