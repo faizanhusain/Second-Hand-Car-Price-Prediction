@@ -35,22 +35,23 @@ Determining whether a used car is priced fairly when browsing online listings ca
        - MAE: Quantifies the average error in predicted prices.
        - RMSE: Emphasizes larger prediction errors for better interpretability.
 #  Results and Findings:
-  ## Key Observations:
-  ### 1) 1- Top Features:
-  -  Year: This feature is the most important, indicating that the age of the car significantly affects its price.
-  -  Power: The car's power (likely engine power in horsepower) is the second most impactful factor.
-  -  Engine: The engine's specifications also strongly influence price predictions.
-  -  Brand (Maruti, Mercedes-Benz, BMW, etc.): Certain car brands play a notable role in determining the price, with brands like Maruti and Mercedes-Benz being
-     highly impactful.
-     ### 2)  Moderately Important Features:
-     - Features like Transmission_Manual, Fuel Type (Diesel), and specific brands (e.g., Hyundai, Porsche) have moderate importance.
-     - These features highlight customer preferences and technical specifications affecting second-hand car pricing.
-     ### 3) Less Important Features:
-     - Features such as Mileage, Seats, and less popular brands (e.g., Renault, Nissan) have minimal contributions.
-     - Location-specific features (e.g., Location_Kochi, Location_Kolkata) are less impactful.
-     ## Insights:
-     - The chart provides a clear understanding of which features are most important for predicting second-hand car prices.
-     - The results could be used to refine the model further by focusing on high-importance features or improving data quality for less impactful ones.
- ## Top Performers:
+## Key Observations:
+![download](https://github.com/user-attachments/assets/b868707f-150c-4713-950a-22dc655d8875)
+### 1) Top Features:
+- Year: This feature is the most important, indicating that the age of the car significantly affects its price.
+- Power: The car's power (likely engine power in horsepower) is the second most impactful factor.
+- Engine: The engine's specifications also strongly influence price predictions.
+- Brand (Maruti, Mercedes-Benz, BMW, etc.): Certain car brands play a notable role in determining the price, with brands like Maruti and Mercedes-Benz being
+  highly impactful.
+### 2)  Moderately Important Features:
+- Features like Transmission_Manual, Fuel Type (Diesel), and specific brands (e.g., Hyundai, Porsche) have moderate importance.
+- These features highlight customer preferences and technical specifications affecting second-hand car pricing.
+### 3) Less Important Features:
+- Features such as Mileage, Seats, and less popular brands (e.g., Renault, Nissan) have minimal contributions.
+- Location-specific features (e.g., Location_Kochi, Location_Kolkata) are less impactful.
+## Insights:
+- The chart provides a clear understanding of which features are most important for predicting second-hand car prices.
+- The results could be used to refine the model further by focusing on high-importance features or improving data quality for less impactful ones.
+## Top Performers:
  - Optimized Gradient Boosting Regressor and Optimized XGB Regressor exhibit the highest R² scores, suggesting they are the most accurate models in this comparison.
  - Deep Neural Network and XG Boost also have strong performances, ranking just below the top models.
