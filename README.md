@@ -15,21 +15,21 @@ Determining whether a used car is priced fairly when browsing online listings ca
   - **Categorical:** Car Brand, Fuel Type, Transmission
   - **Target Variable:** Price
  # Methodology
- 1) ## Exploratory Data Analysis (EDA):
+## 1) Exploratory Data Analysis (EDA):
     - Identified key features driving car prices.
     - Highlighted trends such as:
       - Cars from premium brands generally command higher prices.
       - Older cars tend to have lower prices due to depreciation.
       - Fuel efficiency significantly affects price perception.
-  2) ## Feature Engineering:
+  ## 2) Feature Engineering:
      - Categorical variables were encoded using techniques like one-hot encoding.
      - Numerical variables were scaled to improve model efficiency
      - New features, such as age of the car and fuel efficiency index, were created to enhance prediction accuracy.
-  3) ## Model Development and Tuning:
+##  3) Model Development and Tuning:
      - **Baseline Models:** Linear Regression and Decision Trees.
      - **Advanced Models:** Random Forest, Gradient Boosting, and XGBoost.
      - **Hyperparameter tuning** using GridSearchCV to optimize performance.
-  4) ## Model Evaluation:
+##  4) Model Evaluation:
      - Performance metrics include:
        - R² Score: Measures how well the model explains the variance in prices.
        - MAE: Quantifies the average error in predicted prices.
