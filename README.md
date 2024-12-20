@@ -53,5 +53,6 @@ Determining whether a used car is priced fairly when browsing online listings ca
 - The chart provides a clear understanding of which features are most important for predicting second-hand car prices.
 - The results could be used to refine the model further by focusing on high-importance features or improving data quality for less impactful ones.
 ## Top Performers:
+![download](https://github.com/user-attachments/assets/7de155a1-2179-43c7-8a06-d55f0d00eb7c)
  - Optimized Gradient Boosting Regressor and Optimized XGB Regressor exhibit the highest R² scores, suggesting they are the most accurate models in this comparison.
  - Deep Neural Network and XG Boost also have strong performances, ranking just below the top models.
